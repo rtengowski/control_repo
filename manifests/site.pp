@@ -6,7 +6,8 @@ node default {
   }
   file {'/root/TEST':
     owner   => 'root',
-    content => 'testing testing testing\n',
+    content => 'testing testing testing
+    ',
     ensure  => file,
   }
 }
