@@ -9,7 +9,7 @@ class test {
   }
   
   vcsrepo { '/opt/test/repo':
-    ensure   => latest,
+    ensure   => present,
     provider => git,
     source   => 'git://github.com/rtengowski/test_repo.git',
   }
